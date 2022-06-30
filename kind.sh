@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+source components/common.sh
+
 Head "Downloading  Kind for setup environment "
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.14.0/kind-linux-amd64 
 
